@@ -42,9 +42,9 @@ const products = [
     badge: "Best Seller",
     badgeColor: "bg-red-brand",
     description:
-      "Produk pondasi dari Tukang Solar yang telah membuktikan kualitasnya. Rating 5.0 dari ribuan ulasan pembeli.",
+      "Produk pondasi dari Tukang Solar yang telah membuktikan kualitasnya. Rating 4.9 dari ribuan ulasan pembeli.",
     features: [
-      "Rating 5.0 dari ribuan ulasan",
+      "Rating 4.9 dari ribuan ulasan",
       "Menjaga kebersihan sistem bahan bakar",
       "Cocok untuk diesel harian, bus, truk",
     ],
@@ -150,7 +150,7 @@ const stats = [
     icon: FaBoxOpen,
   },
   {
-    value: "5.0/5.0",
+    value: "4.9/5.0",
     label: "Rating Ulasan",
     icon: FaStar,
   },
@@ -459,7 +459,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="font-bold text-gray-900 text-sm sm:text-base">
-                        5.0 / 5.0
+                        4.9 / 5.0
                       </div>
                       <div className="text-xs text-gray-500">Ribuan Ulasan</div>
                     </div>
@@ -1053,7 +1053,7 @@ export default function Home() {
               </div>
               <p className="text-sm text-white/50 leading-relaxed mb-4">
                 Satu-satunya toko aditif dengan rekor penjualan 150.000+ botol &
-                rating 5.0 di seluruh marketplace.
+                rating 4.9 di seluruh marketplace.
               </p>
             </div>
 
@@ -1142,7 +1142,7 @@ export default function Home() {
                 <FaStar key={s} className="w-4 h-4 text-yellow-500" />
               ))}
               <span className="text-xs text-white/40 ml-2">
-                5.0 Rating dari ribuan ulasan
+                4.9 Rating dari ribuan ulasan
               </span>
             </div>
           </div>
